@@ -1,6 +1,6 @@
 .hero{
     /*background-image: url('../img/hero-buldog.jpg');*/
-    background-color: burlywood;
+    background-color: rgb(221, 194, 158);
     height: calc(100vh - 94px);
     background-position: center;
     background-repeat: no-repeat;

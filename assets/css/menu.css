@@ -4,7 +4,7 @@
     align-items: center;
     height: 60px;
     padding: 0 72px;
-    background-color: #f9f9f9;
+    background-color: rgb(221, 194, 158);
 }
 .menu__lista{
     display: flex;
@@ -12,6 +12,7 @@
 }
 .menu__lista__item{
     margin-left: 10px;
+    font-family: 'Lucida Sans';
 }
 .menu__lista__item:nth-child(1){
     margin-left: 0;
@@ -48,6 +49,7 @@
 }
 .formPesquisa__search{
     border: none;
+    font-family: 'Lucida Sans';
     padding: 4px;
     font-size: 12px;
     background-color: rgb(51, 40, 40);
