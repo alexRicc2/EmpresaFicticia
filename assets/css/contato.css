@@ -40,4 +40,7 @@
     width: auto;
     height: auto;
 }
-
+.img a{
+  font-size: 120px;
+  color: rgb(87, 60, 25);
+}
