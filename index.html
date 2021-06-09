@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/023c50dbdb.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/barra.css">
@@ -16,13 +17,11 @@
         <nav class="menu">
             <img src="assets/img/logo-PetShop.png" class="menu__logo" alt="PetShop logo">
             <div class="conjunto">
-                <form>
-                    <div class="divPesquisa">
-                        <input type="text" placeholder="Ração" class="menu__conjunto__barraPesquisa">
-                        <button><i class="fas fa-search"></i>Search</button>
+                <form class="formPesquisa">
+                        <input type="text" placeholder="Ração" class="formPesquisa__barra">
+                        <button class="formPesquisa__search"><i class="fas fa-search"></i>Search</button>
                     
-                        <button class="botaoCompra"><i class="fas fa-shopping-cart"></i>Buy</button>
-                </div>
+                        <button class="formPesquisa__buy"><i class="fas fa-shopping-cart"></i>Buy</button>
                 </form>
                 <ul class="menu__lista">
                     <li class="menu__lista__item"><a href="#">Log in</a></li>
@@ -41,8 +40,9 @@
     </header>
     <section class="hero">
 
-        <h1>Give your Pet a healthy Treat</h1>
-
+        <div>
+            <h1>Give your Pet a healthy Treat</h1>
+        </div>
     </section>
 
 </body>

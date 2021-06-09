@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 0 72px;
     background-color: yellow;
 }
@@ -18,13 +18,37 @@
 }
 .menu__logo{
     width: 68px;
+    margin-right: 30px;
 }
 .conjunto{
     display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
 }
-.divPesquisa{
+.conjunto form{
+    flex-grow: 1;
+}
+.formPesquisa{
     display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
-.botaoCompra{
+.formPesquisa__buy{
     margin-left: 8px;
+    padding: 4px 8px;
+    font-size: 12px;
+    width: 64px;
+}
+.formPesquisa__barra{
+    flex-grow: 1;
+    padding-left: 8px;
+}
+.formPesquisa__search{
+    border: none;
+    padding: 4px;
+    font-size: 12px;
+    background-color: rgb(51, 40, 40);
+    color: #fff;
+    width: 64px;
 }

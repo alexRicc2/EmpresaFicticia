@@ -8,10 +8,11 @@
     flex-grow: 1;
     text-align: center;
     padding: 8px;
+    border-top: 2px solid #ccc;
 }
 .barra__item__link{
     text-align: center;
 }
 #pagina-ativa{
-    background-color: brown;
+    border-top: 2px solid black
 }
