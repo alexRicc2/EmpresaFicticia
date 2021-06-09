@@ -1,0 +1,17 @@
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.barra__item{
+    background-color: #ccc;
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px;
+}
+.barra__item__link{
+    text-align: center;
+}
+#pagina-ativa{
+    background-color: brown;
+}

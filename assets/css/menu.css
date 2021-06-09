@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 72px;
+    background-color: yellow;
+}
+.menu__lista{
+    display: flex;
+    margin-left: 16px;
+}
+.menu__lista__item{
+    margin-left: 10px;
+}
+.menu__lista__item:nth-child(1){
+    margin-left: 0;
+}
+.menu__logo{
+    width: 68px;
+}
+.conjunto{
+    display: flex;
+}
+.divPesquisa{
+    display: flex;
+}
+.botaoCompra{
+    margin-left: 8px;
+}
