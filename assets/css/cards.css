@@ -1,0 +1,21 @@
+.secao-cards{
+    text-align: center;
+    padding: 30px;
+}
+.secao-cards__titulo{
+    font-size: 32px;
+    line-height: 64px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    width: 20%;
+}
+.card__image{
+    background-color: bisque;
+    height: 200px;
+}

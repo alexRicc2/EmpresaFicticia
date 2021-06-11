@@ -1,0 +1,21 @@
+.area-grid{
+    display: flex;
+    text-align: center;
+}
+.area-grid__principal{
+    width: 50%;
+    background-color: cornflowerblue;
+}
+.area-grid__subArea{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.area-grid__subArea__1{
+    background-color: crimson;
+    height: 100px;
+}
+.area-grid__subArea__2{
+    background-color: darkkhaki;
+    height: 100px;
+}
