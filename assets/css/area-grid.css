@@ -1,21 +1,42 @@
 .area-grid{
     display: flex;
-    text-align: center;
+    text-align: start;
+    margin-bottom: 200px;
+    margin-top: 20px;
 }
 .area-grid__principal{
     width: 50%;
     background-color: cornflowerblue;
+    background-image: url('../img/gato-dançando.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    
 }
 .area-grid__subArea{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-.area-grid__subArea__1{
+.area-grid__subArea__2{
     background-color: crimson;
     height: 100px;
+    background-image: url('../img/Gato\ dançando2\ \(Gif\).gif');
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 }
-.area-grid__subArea__2{
+.area-grid__subArea__1{
     background-color: darkkhaki;
     height: 100px;
+    background-image: url('../img/panda.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+.area-grid__texto{
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 8px;
+    font-size: 16px;
 }
