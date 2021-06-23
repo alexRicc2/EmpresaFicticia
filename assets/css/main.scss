@@ -1,5 +1,9 @@
 $primary-color: #255555;
 
+@import 'menu';
+@import 'localizacao';
+
 body{
     background-color: $primary-color;
+    color: green;
 }

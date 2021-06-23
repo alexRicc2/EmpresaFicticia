@@ -19,3 +19,8 @@
     color: #fff;
     font-size: 40px;
 }
+@media screen and (max-width:768px) {
+    .hero div{
+        position: unset;
+    }
+}

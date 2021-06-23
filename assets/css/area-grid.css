@@ -1,7 +1,7 @@
 .area-grid{
     display: flex;
     text-align: start;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     margin-top: 20px;
 }
 .area-grid__principal{
@@ -39,4 +39,16 @@
     margin-left: 8px;
     margin-top: 8px;
     font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    .area-grid{
+        flex-direction: column;
+    }
+    .area-grid__principal{
+        width: 100%;
+        height: 100px;
+    }
+    .area-grid__subArea{
+        width: 100%;
+    }
 }

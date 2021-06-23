@@ -1,4 +1,143 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 0 72px;
+  background-color: #255555;
+}
+
+.menu__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 16px;
+}
+
+.menu__lista__item {
+  margin-left: 10px;
+  font-family: 'Lucida Sans';
+}
+
+.menu__lista__item:nth-child(1) {
+  margin-left: 0;
+}
+
+.menu__logo {
+  width: 68px;
+  margin-right: 30px;
+}
+
+.conjunto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conjunto form {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.formPesquisa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.formPesquisa__buy {
+  margin-left: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+  width: 64px;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+}
+
+.formPesquisa__barra {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-left: 8px;
+}
+
+.formPesquisa__search {
+  border: none;
+  font-family: 'Lucida Sans';
+  padding: 4px;
+  font-size: 12px;
+  background-color: #332828;
+  color: #fff;
+  width: 64px;
+}
+
+.menu-hamburguer {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .conjunto {
+    display: none;
+  }
+  .menu {
+    padding: 0 20px;
+  }
+  .menu-hamburguer {
+    display: unset;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+.localizacao {
+  text-align: center;
+  color: #333;
+}
+
+.localizacao__titulo {
+  font-size: 28pt;
+}
+
+.localizacao__texto {
+  font-size: 16pt;
+}
+
+.localizacao__mapa {
+  max-width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .localizacao__mapa {
+    height: 300px;
+  }
+}
+
 body {
   background-color: #255555;
+  color: green;
 }
 /*# sourceMappingURL=main.css.map */
